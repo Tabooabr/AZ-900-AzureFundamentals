@@ -12,7 +12,11 @@ Readme with Important notes about azure
 - [Azure fundamental concepts](#azure-fundamental-concepts)
   - [What are public, private, and hybrid clouds?](#what-are-public-private-and-hybrid-clouds)
   - [Cloud model comparison](#cloud-model-comparison)
-- [What are Cloud Service models?](#what-are-cloud-service-models)
+  - [What are Cloud Service models?](#what-are-cloud-service-models)
+  - [Azure Resources and Manager](#azure-resources-and-manager)
+    - [Azure resource groups](#azure-resource-groups)
+    - [Logical grouping](#logical-grouping)
+  - [Billing and subscriptions](#billing-and-subscriptions)
 
 # What is Azure?
 
@@ -101,9 +105,27 @@ There are three deployment models for cloud computing: public cloud, private clo
   - Organizations determine where to run their applications.
   - Organizations control security, compliance, or legal      requirements.
 
-# What are Cloud Service models?
+## What are Cloud Service models?
 
 see here: https://docs.microsoft.com/en-gb/learn/modules/fundamental-azure-concepts/categories-of-cloud-services
 
 
+## Azure Resources and Manager
+
+### Azure resource groups
+
+Resource groups are a fundamental element of the Azure platform. A resource group is a logical container for resources deployed on Azure. These resources are anything you create in an Azure subscription like VMs, Azure Application Gateway instances, and Azure Cosmos DB instances. All resources must be in a resource group, and a resource can only be a member of a single resource group. Many resources can be moved between resource groups with some services having specific limitations or requirements to move. Resource groups can't be nested. Before any resource can be provisioned, you need a resource group for it to be placed in.
+
+### Logical grouping
+
+Resource groups exist to help manage and organize your Azure resources. By placing resources of similar usage, type, or location in a resource group, you can provide order and organization to resources you create in Azure. Logical grouping is the aspect that you're most interested in here, because there's a lot of disorder among our resources.
+
+https://docs.microsoft.com/en-gb/learn/modules/azure-architecture-fundamentals/resources-resource-manager
+
+
+## Billing and subscriptions
+
+https://docs.microsoft.com/en-gb/learn/modules/azure-architecture-fundamentals/management-groups-subscriptions
+
+I think on subs the documentation explains it very well and cannot be summarized, so refer to the original docmentation.
 
