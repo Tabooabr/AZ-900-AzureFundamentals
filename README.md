@@ -12,6 +12,7 @@ Readme with Important notes about azure
 - [Azure fundamental concepts](#azure-fundamental-concepts)
   - [What are public, private, and hybrid clouds?](#what-are-public-private-and-hybrid-clouds)
   - [Cloud model comparison](#cloud-model-comparison)
+- [What are Cloud Service models?](#what-are-cloud-service-models)
 
 # What is Azure?
 
@@ -99,4 +100,10 @@ There are three deployment models for cloud computing: public cloud, private clo
   - Provides the most flexibility.
   - Organizations determine where to run their applications.
   - Organizations control security, compliance, or legal      requirements.
+
+# What are Cloud Service models?
+
+see here: https://docs.microsoft.com/en-gb/learn/modules/fundamental-azure-concepts/categories-of-cloud-services
+
+
 
