@@ -66,6 +66,7 @@ further info: https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fund
 
 ## Azure accounts: 
 
+![scope-levels-12669ee1](https://user-images.githubusercontent.com/34945430/162189279-3713484c-7c16-4a66-aae3-4defff7c6132.png)
 
 
 ---
