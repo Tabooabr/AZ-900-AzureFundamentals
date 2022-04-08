@@ -38,6 +38,19 @@ Readme with Important notes about azure
     - [Why?](#why)
   - [Summary:](#summary)
   - [Networking Services](#networking-services)
+  - [Azure VPN fundamentals](#azure-vpn-fundamentals)
+    - [Vpn gateways](#vpn-gateways)
+  - [VPN gateway sizes:](#vpn-gateway-sizes)
+  - [Deploying the VPN:](#deploying-the-vpn)
+  - [Azure Express Fundamentals:](#azure-express-fundamentals)
+    - [Features and benefits of ExpressRoute](#features-and-benefits-of-expressroute)
+- [Cloud Storage](#cloud-storage)
+- [Azure DB and Analytics Service](#azure-db-and-analytics-service)
+  - [Azure Cosmos DB:](#azure-cosmos-db)
+  - [Azure SQL DB](#azure-sql-db)
+  - [Azure Managed SQL db:](#azure-managed-sql-db)
+  - [Migration](#migration)
+  - [About Big Data:](#about-big-data)
 
 # What is Azure?
 
