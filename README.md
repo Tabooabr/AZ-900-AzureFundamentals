@@ -428,4 +428,36 @@ Hot, cold , Archive.
 
 ![image](https://user-images.githubusercontent.com/34945430/162464440-390a3425-ad54-4cb9-9ffe-422b315cc76d.png)
 
+# Azure DB and Analytics Service
 
+## Azure Cosmos DB:
+
+Azure Cosmos DB is a globally distributed, multi-model database service. You can elastically and independently scale throughput and storage across any number of Azure regions worldwide. You can take advantage of fast, single-digit-millisecond data access by using any one of several popular APIs. Azure Cosmos DB provides comprehensive service level agreements for throughput, latency, availability, and consistency guarantees.
+
+![image](https://user-images.githubusercontent.com/34945430/162468277-6b0d1fd0-5f79-4c06-a6ca-b315288cf4f5.png)
+
+
+## Azure SQL DB
+
+![image](https://user-images.githubusercontent.com/34945430/162469028-2efc001d-772e-4f08-bc66-8d67fa87f2d4.png)
+
+EXCERSISE:
+
+https://docs.microsoft.com/en-us/learn/modules/azure-database-fundamentals/exercise-create-sql-database
+
+## Azure Managed SQL db:
+
+https://docs.microsoft.com/en-us/learn/modules/azure-database-fundamentals/azure-sql-managed-instance
+
+## Migration
+Azure SQL Managed Instance makes it easy to migrate your on-premises data on SQL Server to the cloud using the Azure Database Migration Service (DMS) or native backup and restore. After you have discovered all of the features that your company uses, you need to assess which on-premises SQL Server instances you can migrate to Azure SQL Managed Instance to see if you have any blocking issues. Once you have resolved any issues, you can migrate your data, then cutover from your on-premises SQL Server to your Azure SQL Managed Instance by changing the connection string in your applications.
+
+![image](https://user-images.githubusercontent.com/34945430/162473083-013480e3-a9ea-4d12-98a3-6ea3b114b135.png)
+
+## About Big Data:
+
+https://docs.microsoft.com/en-us/learn/modules/azure-database-fundamentals/azure-big-data-analytics
+
+
+![image](https://user-images.githubusercontent.com/34945430/162473403-22914330-0736-484e-9db9-5fc38317506e.png)
+![image](https://user-images.githubusercontent.com/34945430/162473427-434b28da-8a4d-4e5b-bb57-d2ef1911aa5c.png)
