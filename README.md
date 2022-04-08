@@ -350,3 +350,6 @@ You can link virtual networks together by using virtual network peering. Peering
 
 User-defined routes (UDR) are a significant update to Azure’s Virtual Networks that allows for greater control over network traffic flow. This method allows network administrators to control the routing tables between subnets within a VNet, as well as between VNets.
 
+![image](https://user-images.githubusercontent.com/34945430/162455203-035f1973-f0ee-4612-bc22-21fcea3a4708.png)
+
+
