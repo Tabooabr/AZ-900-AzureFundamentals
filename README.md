@@ -400,4 +400,32 @@ There are several benefits to using ExpressRoute as the connection service betwe
 
 https://docs.microsoft.com/en-us/learn/modules/azure-networking-fundamentals/express-route-fundamentals
 
----
+# Cloud Storage
+
+https://docs.microsoft.com/en-us/learn/modules/azure-storage-fundamentals/azure-storage-accounts
+
+Blobs aren't limited to common file formats. A blob could contain gigabytes of binary data streamed from a scientific instrument, an encrypted message for another application, or data in a custom format for an app you're developing. One advantage of blob storage over disk storage is that it does not require developers to think about or manage disks; data is uploaded as blobs, and Azure takes care of the physical storage needs.
+
+Blob Storage is ideal for:
+
+- Serving images or documents directly to a browser.
+- Storing files for distributed access.
+- Streaming video and audio.
+- Storing data for backup and restore, disaster recovery, and archiving.
+- Storing data for analysis by an on-premises or Azure-hosted service.
+- Storing up to 8 TB of data for virtual machines.
+
+![image](https://user-images.githubusercontent.com/34945430/162463966-2f0c0660-5322-4aef-a010-5c78cfa46ea0.png)
+
+
+Files:
+
+![image](https://user-images.githubusercontent.com/34945430/162464155-4b7a78e4-4868-4e01-91e8-10e2d3b89404.png)
+
+Setting up blob tiers:
+
+Hot, cold , Archive.
+
+![image](https://user-images.githubusercontent.com/34945430/162464440-390a3425-ad54-4cb9-9ffe-422b315cc76d.png)
+
+
