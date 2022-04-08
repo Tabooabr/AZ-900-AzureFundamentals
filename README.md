@@ -353,3 +353,51 @@ User-defined routes (UDR) are a significant update to Azure’s Virtual Networks
 ![image](https://user-images.githubusercontent.com/34945430/162455203-035f1973-f0ee-4612-bc22-21fcea3a4708.png)
 
 
+## Azure VPN fundamentals
+
+VPNs use an encrypted tunnel within another network. They're typically deployed to connect two or more trusted private networks to one another over an untrusted network (typically the public internet). Traffic is encrypted while traveling over the untrusted network to prevent eavesdropping or other attacks.
+
+### Vpn gateways
+A VPN gateway is a type of virtual network gateway. Azure VPN Gateway instances are deployed in a dedicated subnet of the virtual network and enable the following connectivity:
+
+- Connect on-premises datacenters to virtual networks through a site-to-site connection.
+- Connect individual devices to virtual networks through a point-to-site connection.
+- Connect virtual networks to other virtual networks through a network-to-network connection.
+
+Types: 
+
+- Policy based VPN
+- Route-Based VPN
+
+![image](https://user-images.githubusercontent.com/34945430/162458555-728cc79f-823e-497c-8910-1c39d8c7cd39.png)
+
+## VPN gateway sizes:
+
+![image](https://user-images.githubusercontent.com/34945430/162458680-e0844098-f867-409b-831e-21ed19894087.png)
+
+## Deploying the VPN:
+
+![image](https://user-images.githubusercontent.com/34945430/162458809-5a0fd227-7e16-435b-b8b9-e174fc92af01.png)
+
+See more about VPNS here:
+
+https://docs.microsoft.com/en-us/learn/modules/azure-networking-fundamentals/azure-vpn-gateway-fundamentals
+
+## Azure Express Fundamentals:
+
+![image](https://user-images.githubusercontent.com/34945430/162459508-54cc2fdb-2e91-4e86-bd14-344b24a74441.png)
+
+### Features and benefits of ExpressRoute
+There are several benefits to using ExpressRoute as the connection service between Azure and on-premises networks.
+
+- Layer 3 connectivity between your on-premises network and the Microsoft Cloud through a connectivity provider. Connectivity can be from an any-to-any (IPVPN) network, a point-to-point Ethernet connection, or through a virtual cross-connection via an Ethernet exchange.
+- Connectivity to Microsoft cloud services across all regions in the geopolitical region.
+- Global connectivity to Microsoft services across all regions with the ExpressRoute premium add-on.
+- Dynamic routing between your network and Microsoft via BGP.
+- Built-in redundancy in every peering location for higher reliability.
+- Connection uptime SLA.
+- QoS support for Skype for Business.
+
+https://docs.microsoft.com/en-us/learn/modules/azure-networking-fundamentals/express-route-fundamentals
+
+---
