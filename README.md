@@ -474,3 +474,89 @@ https://docs.microsoft.com/en-us/learn/modules/azure-database-fundamentals/azure
 
 ![image](https://user-images.githubusercontent.com/34945430/162473403-22914330-0736-484e-9db9-5fc38317506e.png)
 ![image](https://user-images.githubusercontent.com/34945430/162473427-434b28da-8a4d-4e5b-bb57-d2ef1911aa5c.png)
+
+---
+
+# Azure Functions
+
+With the Azure Functions service, you can host a single method or function by using a popular programming language in the cloud that runs in response to an event. An example of an event might be an HTTP request, a new message on a queue, or a message on a timer.
+
+Because of its atomic nature, Azure Functions can serve many purposes in an application's design. Functions can be written in many common programming languages, such as C#, Python, JavaScript, Typescript, Java, and PowerShell.
+
+Azure Functions scales automatically, and charges accrue only when a function is triggered. These qualities make Azure Functions a solid choice when demand is variable. For example, you might be receiving messages from an IoT solution that monitors a fleet of delivery vehicles. You'll likely have more data arriving during business hours. Azure Functions can scale out to accommodate these busier times.
+
+An Azure function is a stateless environment. A function behaves as if it's restarted every time it responds to an event. This feature is ideal for processing incoming data. And if state is required, the function can be connected to an Azure storage account.
+
+Azure Functions can perform orchestration tasks by using an extension called Durable Functions, which allow developers to chain functions together while maintaining state.
+
+The Azure Functions solution is ideal when you're concerned only with the code that's running your service and not the underlying platform or infrastructure. You use Azure Functions most commonly when you need to perform work in response to an event. You do this often via a REST request, timer, or message from another Azure service, and when that work can be completed quickly, within seconds or less.
+
+# Azure Logic Apps
+
+Logic Apps is a low-code/no-code development platform hosted as a cloud service. The service helps you automate and orchestrate tasks, business processes, and workflows when you need to integrate apps, data, systems, and services across enterprises or organizations. Logic Apps simplifies how you design and build scalable solutions, whether in the cloud, on-premises, or both. This solution covers app integration, data integration, system integration, enterprise application integration (EAI), and business-to-business (B2B) integration.
+
+Azure Logic Apps is designed in a web-based designer and can execute logic that's triggered by Azure services without writing any code. You build an app by linking triggers to actions with connectors. A trigger is an event (such as a timer) that causes an app to execute, then a new message to be sent to a queue, or an HTTP request. An action is a task or step that can execute. There are logic actions such as those you would find in most programming languages. Examples of actions include working with variables, decision statements and loops, and tasks that parse and modify data.
+
+To build enterprise integration solutions with Azure Logic Apps, you can choose from a growing gallery of over 200 connectors. The gallery includes services such as Salesforce, SAP, Oracle DB, and file shares.
+
+If you can't find the action or connector you need, you can build your own by using custom code.
+
+# What are the differences between these services?
+
+You can call Azure Functions from Azure Logic Apps, and vice versa. The primary difference between the two services is their intent. Azure Functions is a serverless compute service, and Azure Logic Apps is intended to be a serverless orchestration service. Although you can use Azure Functions to orchestrate a long-running business process that involves various connections, this was not its primary use case when it was designed.
+
+Additionally, the two services are priced differently. Azure Functions pricing is based on the number of executions and the running time of each execution. Logic Apps pricing is based on the number of executions and the type of connectors that it utilizes.
+
+![image](https://user-images.githubusercontent.com/34945430/162738549-4595fd1d-7426-4204-ae72-fa4f0597e56a.png)
+
+## Use Azure Functions:
+
+![image](https://user-images.githubusercontent.com/34945430/162738613-011a94b3-d8bb-4c3c-b326-11fd0651cb88.png)
+
+---
+
+# Best tools for the best solutions:
+
+![image](https://user-images.githubusercontent.com/34945430/162739135-2efaa659-c9e8-4a8c-9e35-151d6ff672ea.png)
+
+GITHUB AND GITHUB ACTIONS:
+
+![image](https://user-images.githubusercontent.com/34945430/162739222-e5253edf-e91e-40fa-a966-4afc6d75a353.png)
+
+Azure Dev Test Labs:
+
+![image](https://user-images.githubusercontent.com/34945430/162739266-488ec7a2-09f6-45c4-8480-25ed65091476.png)
+
+
+
+Decision critaria:
+
+https://docs.microsoft.com/en-gb/learn/modules/azure-devops-devtest-labs/3-analyze-decision-criteria
+
+---
+
+# Best Tools for configuring and managing Azure Environment:
+
+- Visual tools and code based tools
+
+![image](https://user-images.githubusercontent.com/34945430/162739906-57d24b52-15ff-4e40-9499-721af9f54365.png)
+
+![image](https://user-images.githubusercontent.com/34945430/162739930-bb6a0a1e-710e-473b-9928-3b51f90e7191.png)
+
+## Decision Criteria:
+
+https://docs.microsoft.com/en-gb/learn/modules/management-fundamentals/3-analyze-decision-criteria
+
+# Monitoring Services, outage mitigation:
+
+![image](https://user-images.githubusercontent.com/34945430/162741549-695eb9f7-0172-417a-9ecd-59887ff3acfd.png)
+
+![image](https://user-images.githubusercontent.com/34945430/162741577-19510470-f96d-4773-a557-d6ec2526cce3.png)
+
+![image](https://user-images.githubusercontent.com/34945430/162741610-17b89201-20cb-44ab-b674-c18e527f38b7.png)
+
+## Decision Criteria:
+
+![image](https://user-images.githubusercontent.com/34945430/162741979-592ecfe1-b505-4df6-b62b-911f9b0203d4.png)
+
+
