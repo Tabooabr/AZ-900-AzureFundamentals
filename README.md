@@ -51,6 +51,15 @@ Readme with Important notes about azure
   - [Azure Managed SQL db:](#azure-managed-sql-db)
   - [Migration](#migration)
   - [About Big Data:](#about-big-data)
+- [Azure Functions](#azure-functions-1)
+- [Azure Logic Apps](#azure-logic-apps-1)
+- [What are the differences between these services?](#what-are-the-differences-between-these-services)
+  - [Use Azure Functions:](#use-azure-functions)
+- [Best tools for the best solutions:](#best-tools-for-the-best-solutions)
+- [Best Tools for configuring and managing Azure Environment:](#best-tools-for-configuring-and-managing-azure-environment)
+  - [Decision Criteria:](#decision-criteria)
+- [Monitoring Services, outage mitigation:](#monitoring-services-outage-mitigation)
+  - [Decision Criteria:](#decision-criteria-1)
 
 # What is Azure?
 
