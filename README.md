@@ -569,3 +569,40 @@ https://docs.microsoft.com/en-gb/learn/modules/management-fundamentals/3-analyze
 ![image](https://user-images.githubusercontent.com/34945430/162741979-592ecfe1-b505-4df6-b62b-911f9b0203d4.png)
 
 
+---
+
+# Cloud Security
+
+![image](https://user-images.githubusercontent.com/34945430/162981989-4431f7d2-1490-452c-adce-6cfaea5918dd.png)
+
+![image](https://user-images.githubusercontent.com/34945430/162982314-88f6f0d7-96e8-44e3-a83a-d940e30b8b81.png)
+![image](https://user-images.githubusercontent.com/34945430/162982365-484aafab-b61c-43d3-b2f3-0b2c5cc41e39.png)
+![image](https://user-images.githubusercontent.com/34945430/162982390-180cd2ea-3fc9-4459-95a7-8329fe9a5b31.png)
+![image](https://user-images.githubusercontent.com/34945430/162982443-de8f0344-5535-45b7-a262-899a4c546692.png)
+![image](https://user-images.githubusercontent.com/34945430/162982845-b6cd4243-daa6-4d3e-bc6e-40d3d514c28b.png)
+![image](https://user-images.githubusercontent.com/34945430/162982900-b69e9d2b-132c-40d1-8d03-b3bf6bcd7be5.png)
+![image](https://user-images.githubusercontent.com/34945430/162982934-e33a83b5-8644-4fda-8766-2a04cae3edb6.png)
+Excersise: https://docs.microsoft.com/en-us/learn/modules/protect-against-security-threats-azure/5-manage-password-key-vault
+
+![image](https://user-images.githubusercontent.com/34945430/162983097-ddcd1969-5af6-41c5-ae7a-66abf904906b.png)
+
+---
+
+# Network Conectivity:
+
+![image](https://user-images.githubusercontent.com/34945430/162983416-c24323a8-deac-4aa5-87fc-716201c07742.png)
+![image](https://user-images.githubusercontent.com/34945430/162983457-7a95694f-fcec-43f8-a8c7-abc4b77384ef.png)
+![image](https://user-images.githubusercontent.com/34945430/162983492-8c48614b-7045-4525-ba55-3186c0ac0a23.png)
+![image](https://user-images.githubusercontent.com/34945430/162983526-6256ca71-ff06-4958-b607-11237d0a1d93.png)
+![image](https://user-images.githubusercontent.com/34945430/162983554-6c5ca5e2-bd90-4b36-ba99-2500530451af.png)
+![image](https://user-images.githubusercontent.com/34945430/162983594-7351b6b9-0169-491d-9210-774096ebe0e1.png)
+![image](https://user-images.githubusercontent.com/34945430/162983662-bfe6952f-46ee-4e0a-b537-6d9bfe4f0a1c.png)
+![image](https://user-images.githubusercontent.com/34945430/162983703-4b5f763d-df80-40b1-b671-ffb9cc8ab09a.png)
+![image](https://user-images.githubusercontent.com/34945430/162983732-318df967-6f89-48c5-84c3-2c1ca7fc9c12.png)
+![image](https://user-images.githubusercontent.com/34945430/162983753-3b5f4901-c413-4e16-8666-070e0320279e.png)
+
+![image](https://user-images.githubusercontent.com/34945430/162983797-4d5a4c31-da20-4977-8842-737774e96218.png)
+Excersise 2: https://docs.microsoft.com/en-us/learn/modules/secure-network-connectivity-azure/6-configure-access-network-security-group
+
+![image](https://user-images.githubusercontent.com/34945430/162983919-b91bc9fd-140d-4f03-a4f5-e11d9508514e.png)
+![image](https://user-images.githubusercontent.com/34945430/162983940-093756c1-256c-4dfe-83a7-dc7437b73fd2.png)
