@@ -60,6 +60,8 @@ Readme with Important notes about azure
   - [Decision Criteria:](#decision-criteria)
 - [Monitoring Services, outage mitigation:](#monitoring-services-outage-mitigation)
   - [Decision Criteria:](#decision-criteria-1)
+- [Cloud Security](#cloud-security)
+- [Network Conectivity:](#network-conectivity)
 
 # What is Azure?
 
