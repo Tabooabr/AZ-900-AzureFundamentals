@@ -777,6 +777,74 @@ https://docs.microsoft.com/en-us/learn/modules/choose-azure-services-sla-lifecyc
 
 ---
 
+# Describe Identity, Governace, Privacy and compliance features.
+
+## Authentication and authorization
+
+![image](https://user-images.githubusercontent.com/34945430/163175628-c5902184-e1c0-446a-abaf-7fd986fcac64.png)
 
 
+![image](https://user-images.githubusercontent.com/34945430/163175649-eec69a4c-eb1e-4913-a81c-a5f3b6f1f2cf.png)
+
+## What is Azure active directory?
+
+In this part, you learn how Azure Active Directory (Azure AD) provides identity services that enable your users to sign in and access both Microsoft cloud applications and cloud applications that you develop. You also learn how Azure AD supports single sign-on (SSO).
+
+![image](https://user-images.githubusercontent.com/34945430/163175941-8a626649-3bea-43cc-ab4b-4acb1f04d865.png)
+
+![image](https://user-images.githubusercontent.com/34945430/163176412-10bb8f03-0e32-4bbd-8099-f357f4be9cb3.png)
+
+
+![image](https://user-images.githubusercontent.com/34945430/163176538-a670d405-cb06-4ca4-a7fe-b9a0e1dd3499.png)
+
+## SSO:
+
+![image](https://user-images.githubusercontent.com/34945430/163176666-ea7dc80f-6e2b-4bc2-b960-2ac7dc6ac238.png)
+
+
+![image](https://user-images.githubusercontent.com/34945430/163176834-34aadbd1-f373-4469-a07f-d35b64158bdf.png)
+
+MFA:
+
+![image](https://user-images.githubusercontent.com/34945430/163176906-f593b13f-7d60-432f-854a-6fc6378ca707.png)
+
+Azure MFA: 
+
+![image](https://user-images.githubusercontent.com/34945430/163176999-eaa662b0-647d-4b0a-84ec-932bee65fc49.png)
+
+![image](https://user-images.githubusercontent.com/34945430/163177132-712e5918-7c9c-4bd0-99ef-5772f414a282.png)
+
+---
+
+# Governace Strategies:
+![image](https://user-images.githubusercontent.com/34945430/163177957-64e210c5-3fc9-49bd-8fdb-9d6217cd69b3.png)
+![image](https://user-images.githubusercontent.com/34945430/163178010-897b181f-08cd-4259-a7ea-2cbf9302b449.png)
+
+![image](https://user-images.githubusercontent.com/34945430/163178203-a6ce98bd-fc76-4127-a4b9-d8ff2e77e956.png)
+![image](https://user-images.githubusercontent.com/34945430/163178285-1c13b319-a48f-4268-8c37-1a12bc9060f6.png)
+![image](https://user-images.githubusercontent.com/34945430/163178394-369f9da2-3ac2-4cfd-87fa-71e5698ec77e.png)
+![image](https://user-images.githubusercontent.com/34945430/163178487-6eef07d2-baf0-48a8-ad28-93e457512da6.png)
+
+Excersise: https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/4-protect-storage-account-resource-lock
+
+![image](https://user-images.githubusercontent.com/34945430/163181760-70ba66d0-4814-4955-8bd6-e5c1b2b37f93.png)
+
+![image](https://user-images.githubusercontent.com/34945430/163181783-12f60c51-2ab3-415f-b382-350785a25efb.png)
+
+Tasks (Excersise):
+
+https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/6-control-audit-resources-azure-policy
+https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/7-restrict-location-azure-policy
+
+Ask questions about policing and Auditoring.
+
+https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/9-accelerate-cloud-adoption-framework
+
+
+# Privacy Compliance, And data protection standards
+
+![image](https://user-images.githubusercontent.com/34945430/163184268-1a77f9e9-6c32-402f-bcec-d318cc3777c6.png)
+
+https://docs.microsoft.com/en-gb/learn/modules/examine-privacy-compliance-data-protection-standards/2-explore-compliance-terms-requirements
+https://docs.microsoft.com/en-gb/learn/modules/examine-privacy-compliance-data-protection-standards/3-access-microsoft-privacy-statement
 
