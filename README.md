@@ -608,3 +608,175 @@ Excersise 2: https://docs.microsoft.com/en-us/learn/modules/secure-network-conne
 
 ![image](https://user-images.githubusercontent.com/34945430/162983919-b91bc9fd-140d-4f03-a4f5-e11d9508514e.png)
 ![image](https://user-images.githubusercontent.com/34945430/162983940-093756c1-256c-4dfe-83a7-dc7437b73fd2.png)
+
+# Azure Cost Management and Service level agreements.
+
+## Whats the TCO cost calculator?
+
+- It helps you estimate the cost savings of operating your solution on Azure over time, instead of the on premises datacenter.
+
+the term total cost of ownership is commonly use in finance. It can be hard to see all the hidden costs related to operating a technology capability on prem.
+
+With the TCO Calculator you enter the details of your on-premises workloads. Then you review the suggested industry average costs. These costs include electricity, network maintenance, and IT labor. You're then presented with a side-by-side report. Using the report, you can compare those costs wwith the sample workloads running on Azure.
+
+![image](https://user-images.githubusercontent.com/34945430/163142016-2643f6a8-9e14-4ca2-aeca-522ed11ef754.png)
+
+![image](https://user-images.githubusercontent.com/34945430/163142052-14829e62-1cdf-4dfe-9b2a-eb7fdea33b1d.png)
+
+### Step 1: Define your workloads
+
+First you enter the specifications of your on prem infrastructure into the TCO Calculator based on these 4 categories:
+
+- Servers
+  
+  This Categor,y includes OS VMs , CPU cores and RAM.
+
+- DBs
+
+  This category includes DB types, Server hardware, and the Azure Service you want to use, which includes the expected maximum concurrent user sign-ins.
+
+- Storage
+
+  This category includes storage type and capacity, which includes any backup or archive storage.
+
+- Networking
+
+This category includes the amount of network bandwidth you currently consume in your on prem environment.
+
+### Step 2: Adjust assumptions
+
+Next, you specify whether your current on-premises licenses are enrolled for Software Assurance, which can save you money by reusing those licenses on Azure. You also specify whether you need to replicate your storage to another Azure region for greater redundancy.
+
+Then, you can see the key operating cost assumptions across several different areas, which vary among teams and organizations. These costs have been certified by Nucleus Research, an independent research company. For example, these costs include:
+
+- Electrivity price per kilowatt hour (KWh).
+- Hourly pay rate for it Admin.
+- Network maintenance cost as a percentage of network hardware and Software costs.
+
+To improve the accuracy of the TCO Calculator results, you adjust the values so that they match the costs of your current on-premises infrastructure.
+
+### Step 3: View the report
+
+Choose a time frame between one and five years. The TCO calculator generates a report that's based on the information you've entered. here is an example:
+
+![image](https://user-images.githubusercontent.com/34945430/163143095-fcae9dca-3a21-4c13-9a98-6d45b268a93e.png)
+
+![image](https://user-images.githubusercontent.com/34945430/163143159-2c714d2c-14d5-4910-afb4-b9c8b0dff76a.png)
+
+## Compare sample Workload costs by using the TCo Calculator
+
+## Define your workloads: 
+
+Using the TCO we estimated a total cost of: over 3 years.
+
+![image](https://user-images.githubusercontent.com/34945430/163155878-de3ced2d-448b-452e-85ba-383112d1fcac.png)
+
+[Total Cost of Ownership (TCO) Calculator _ Microsoft Azure.pdf](https://github.com/Tabooabr/AzureFundamentals/files/8480479/Total.Cost.of.Ownership.TCO.Calculator._.Microsoft.Azure.pdf)
+
+# Purchase Azure Services
+
+## Types of azure subscriptions:
+
+- Free trial ( self explanatory)
+- Pay as you go: 
+   A pay-as-you-go subscription enables you to pay for what you use by attaching a credit or debit card to your account. Organizations can apply for volume discounts and prepaid invoicing.
+   
+ -  Members offers:
+
+    Your existing membership to certain Microsoft products and services might provide you with credits for your Azure account and reduced rates on Azure services. For example, member offers are available to Visual Studio subscribers, Microsoft Partner Network members, Microsoft for Startups members, and Microsoft Imagine members.
+
+## Azure services: 
+
+![image](https://user-images.githubusercontent.com/34945430/163156736-4720a665-cf4b-4421-9e14-8e595070de7e.png)
+
+## Billing Zones:
+
+![image](https://user-images.githubusercontent.com/34945430/163157143-c3a9d151-9ad6-452c-8db7-7e88cc7a47f4.png)
+
+# Workload calculator:
+
+Link: https://azure.microsoft.com/en-gb/pricing/calculator/
+
+![image](https://user-images.githubusercontent.com/34945430/163157572-a860fea5-b0c7-48d2-87f3-504004ff23e7.png)
+
+Excersise:
+
+ ![image](https://user-images.githubusercontent.com/34945430/163158190-f7714e54-7afe-4940-801d-8d912b47caf4.png)
+
+# Azure Advisor: 
+
+![image](https://user-images.githubusercontent.com/34945430/163158325-6ab58d2c-2d57-4848-ae3f-40bee8abf731.png)
+
+![image](https://user-images.githubusercontent.com/34945430/163158424-387f33cb-56c2-4cdf-b20d-b79a1e3ef713.png)
+
+## Further reading: 
+
+https://docs.microsoft.com/en-us/learn/modules/plan-manage-azure-costs/8-summary
+
+# Choose the right azure services by examinign SLAs
+
+
+## What is an SLA?
+
+A service-level agreement (SLA) is a formal agreement between a service company and the customer. For Azure, this agreement defines the performance standards that Microsoft commits to for you, the customer.
+
+In this part, you'll learn more about Azure SLAs, including why SLAs are important, where you can find the SLA for a specific Azure service, and what you'll find in a typical SLA.
+
+
+## Why are SLAs Important?
+
+Understanding the SLA for each Azure service you use helps you understand what guarantees you can expect.
+
+When you build applications on Azure, the availability of the services that you use affect your application's performance. Understanding the SLAs involved can help you establish the SLA you set with your customers.
+
+Later in this module, you'll learn about some strategies you can use when an Azure SLA doesn't meet your needs.
+
+
+### Access SLAs in Azure: 
+
+https://azure.microsoft.com/support/legal/sla/
+
+
+## Typical SLA:
+
+![image](https://user-images.githubusercontent.com/34945430/163160141-5961be61-eba1-4982-a9f0-fe98a57cafad.png)
+
+## How percentages rerlate to total downtime?
+
+![image](https://user-images.githubusercontent.com/34945430/163160826-f0f4d10f-6d39-45fc-b462-3cfac9861156.png)
+
+## What are service credits?
+
+![image](https://user-images.githubusercontent.com/34945430/163161051-8555fa6b-7c88-4ea8-8158-c72fd76f3fbe.png)
+
+
+Azure Status to check if service is unavailable: https://status.azure.com/status
+
+# Define your own SLA
+
+### Identify Workloads: 
+
+![image](https://user-images.githubusercontent.com/34945430/163163391-46dc6599-ac98-4715-b5ed-4634767cf060.png)
+
+Calculating the percentages:
+
+![image](https://user-images.githubusercontent.com/34945430/163163600-a75ea8f9-7449-4b3f-b79e-5ea6ac047422.png)
+
+Possible shortcomings:
+
+![image](https://user-images.githubusercontent.com/34945430/163163743-51466914-acc9-4e26-b160-04c1cae66193.png)
+
+
+![image](https://user-images.githubusercontent.com/34945430/163163779-eed360ea-93a7-4f9a-8d10-e31a56c5e4be.png)
+
+## Access opreview services and preview features
+
+Summary: 
+
+https://docs.microsoft.com/en-us/learn/modules/choose-azure-services-sla-lifecycle/7-summary
+
+---
+
+
+
+
